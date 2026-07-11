@@ -135,45 +135,214 @@
 }
 
 .speaker-card {
-  background: #ffffff;
-  border-radius: 12px;
-  border: 1px solid #e5e7eb;
+    background: #ffffff;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
 }
 
 .speaker-image {
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  overflow: hidden;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
 }
 
 .speaker-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 
 .speaker-info {
-  padding: 1.5rem;
+    padding: 1.5rem;
 }
 
 .speaker-tag {
-  display: block;
-  font-size: 0.7rem;
-  font-weight: 700;
-  color: #1d52d9;
-  margin-bottom: 0.5rem;
+    display: block;
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: #1d52d9;
+    margin-bottom: 0.5rem;
 }
 
 .speaker-name {
-  font-size: 1.15rem;
-  font-weight: 700;
-  color: #111827;
-  margin-bottom: 0.25rem;
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 0.25rem;
 }
 
 .speaker-role {
-  font-size: 0.85rem;
-  color: #6b7280;
+    font-size: 0.85rem;
+    color: #6b7280;
+}
+
+.pricing-section {
+    padding: 5rem 0;
+    background-color: #ffffff;
+}
+
+.pricing-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.pricing-subtitle {
+    color: #6b7280;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.pricing-card {
+    display: flex;
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 2rem;
+    flex-direction: column;
+    height: 100%;
+}
+
+.pricing-card-featured {
+    background: #111827;
+    border-color: #111827;
+    color: #ffffff;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+
+.pricing-card-header {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.pricing-card-featured .pricing-card-header {
+    border-bottom-color: #374151;
+}
+
+.pricing-tier {
+    display: block;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #9ca3af;
+    margin-bottom: 0.75rem;
+}
+
+.pricing-card-featured .pricing-tier {
+    color: #9ca3af;
+}
+
+.pricing-price {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+}
+
+.price {
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: #111827;
+    line-height: 1;
+}
+
+.pricing-card-featured .price {
+    color: #ffffff;
+}
+
+.price-period {
+    font-size: 0.8rem;
+    color: #6b7280;
+}
+
+.pricing-card-featured .price-period {
+    color: #9ca3af;
+}
+
+.pricing-features {
+    list-style: none;
+    margin-bottom: 2rem;
+}
+
+.pricing-features li {
+    position: relative;
+    padding-left: 1.25rem;
+    margin-bottom: 0.75rem;
+    font-size: 0.85rem;
+    color: #4b5563;
+    line-height: 1.4;
+}
+
+.pricing-card-featured .pricing-features li {
+    color: #d1d5db;
+}
+
+.footer {
+    background-color: #0f172a;
+    color: #94a3b8;
+    padding: 3rem 0 2.5rem;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-socials {
+    display: flex;
+    gap: 1.25rem;
+    align-items: center;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #94a3b8;
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+
+.footer-divider {
+    width: 100%;
+    height: 1px;
+    background-color: #1e293b;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.footer-copyright {
+    color: #64748b;
+}
+
+.footer-legal {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.footer-legal a {
+    color: #94a3b8;
+    text-decoration: none;
 }
 
