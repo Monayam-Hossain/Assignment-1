@@ -10,6 +10,7 @@
 
 .btn {
   display: inline-block;
+  font-family: "Inter", sans-serif;
   background-color: #1d52d9;
   color: #ffffff;
   text-decoration: none;
@@ -22,9 +23,17 @@
   box-shadow: 0 4px 14px rgba(29, 82, 217, 0.3);
 }
 
+.btn-outline {
+  background-color: transparent;
+  color: #1d52d9;
+  border: 2px solid #1d52d9;
+  box-shadow: none;
+}
+
 .navBar {
   display: flex;
   justify-content: space-between;
+  font-family: "Arimo", sans-serif;
   padding: 1rem;
   background-color: white;
 }
@@ -50,6 +59,8 @@
 }
 
 .hero {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
   position: relative;
   width: 100%;
   min-height: 100vh;
@@ -90,6 +101,7 @@
 }
 
 .hero-title {
+  font-family: "Inter", sans-serif;
   font-size: clamp(2.5rem, 5vw, 4.5rem);
   font-weight: 800;
   letter-spacing: -0.03em;
@@ -119,6 +131,8 @@
 
 .speakers-section {
   padding: 5rem 0;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
 }
 
 .speakers-section h2 {
@@ -180,6 +194,8 @@
 
 .pricing-section {
   padding: 5rem 0;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
   background-color: #ffffff;
 }
 
@@ -288,6 +304,8 @@
 }
 
 .hackathon-section {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
   background-color: #0f172a;
   color: #f8fafc;
   padding: 6rem 0;
@@ -480,6 +498,8 @@
 }
 
 .footer {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
   background-color: #0f172a;
   color: #94a3b8;
   padding: 3rem 0 2.5rem;
